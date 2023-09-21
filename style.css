@@ -41,3 +41,22 @@ input{
     text-align: center;
     font-size: 18px;
 }
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5%;
+}
+
+ul li{
+    padding: 15px;
+    background-color: #D7AF70;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 18px;
+}
