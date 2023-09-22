@@ -6,6 +6,6 @@
         {"src":"/android-chrome-512x512.png","sizes":"512x512","type":"favicon_io/png"}
     ],
     "theme_color":"black",
-    "background_color":"#D7AF70",
+    "background_color":"#C59849",
     "display":"standalone"
 }
