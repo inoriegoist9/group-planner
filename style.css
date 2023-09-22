@@ -58,7 +58,7 @@ ul{
 }
 
 ul li{
-    padding: 15px;
+    padding: 10px 15px;
     background-color: #D7AF70;
     color: #fff;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
@@ -94,6 +94,9 @@ ul li:hover{
 
 #list-btn:hover {
     background-color: #522A27;
+}
+ul li {
+    padding: 8px 15px;
 }
 
 ul li:hover{
