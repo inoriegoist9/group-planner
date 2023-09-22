@@ -22,16 +22,21 @@ listBtnEl.addEventListener("click", function(){
 })
 
 onValue(todoListInDb, function(snapshot){
-    let itemArray = Object.entries(snapshot.val())
 
-    todoListEl.innerHTML = ""
+    if (snapshot.exists()){
+        let itemArray = Object.entries(snapshot.val())
 
-    for(let i=0; i < itemArray.length; i++){
-        let currentItem = itemArray[i]
-        let currentitemId = currentItem[0]
-        let currentitemValue = currentItem[1]
+        todoListEl.innerHTML = ""
 
-        inputValueAppear(currentItem)
+        for(let i=0; i < itemArray.length; i++){
+            let currentItem = itemArray[i]
+            let currentitemId = currentItem[0]
+            let currentitemValue = currentItem[1]
+
+            inputValueAppear(currentItem)
+        }
+    } else {
+        todoListEl.innerHTML="No items here..."
     }
 })
 
