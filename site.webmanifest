@@ -2,8 +2,8 @@
 "short_name":"Group Planner",
 "icons":
     [
-        {"src":"/android-chrome-192x192.png","sizes":"192x192","type":"favicon_io/png"},
-        {"src":"/android-chrome-512x512.png","sizes":"512x512","type":"favicon_io/png"}
+        {"src":"images/android-chrome-192x192.png","sizes":"192x192","type":"favicon_io/png"},
+        {"src":"images/android-chrome-512x512.png","sizes":"512x512","type":"favicon_io/png"}
     ],
     "theme_color":"black",
     "background_color":"#C59849",
