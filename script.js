@@ -40,9 +40,6 @@ onValue(todoListInDb, function(snapshot){
     }
 })
 
-function clearTodoListEl(){
-    todoListEl.innerHTML = ""
-}
 function clearInputField(){
     inputFieldEl.value = ""
 }
