@@ -21,6 +21,10 @@ listBtnEl.addEventListener("click", function(){
     
 })
 
+function clearInputField(){
+    inputFieldEl.value = ""
+}
+
 onValue(todoListInDb, function(snapshot){
 
     if (snapshot.exists()){
@@ -39,10 +43,6 @@ onValue(todoListInDb, function(snapshot){
         todoListEl.innerHTML="No items here..."
     }
 })
-
-function clearInputField(){
-    inputFieldEl.value = ""
-}
 
 function inputValueAppear(item){
     let itemID = item[0]
